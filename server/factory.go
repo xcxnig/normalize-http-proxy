@@ -26,7 +26,7 @@ func NewBaiduServer(address, listen string, verbose bool) *Server {
 		WithAddress(ipPort),
 		WithHeaders(Headers{
 			"Host":       ipPort,
-			"X-T5-Auth":  "683556433",
+			"X-T5-Auth":  "ZjQxNDIh",
 			"User-Agent": "okhttp/3.11.0 Dalvik/2.1.0 (Linux; U; Android 11; Build/RP1A.200720.011) baiduboxapp/13.10.0.10 (Baidu; P1 11)",
 		}),
 	)
